@@ -22,17 +22,22 @@ Last modified:
 // Colors
 @purpleLight:#4B0082;
 @purpleDark:#2E0854;
-@neonGreen:#92CF48;
+@green:#168C00;
+@greenNeon:#92CF48;
 @lightGrey:#d3d3d3;
 @darkGrey:#7e7e7e;
 @white:#FFFFFF;
 
+
 // Font
 @fontFamily:'Roboto', sans-serif;
 
-
+//General
 @width: 200px;
 @padding: 30px;
+@borderSideMenuHover: 5px solid @greenNeon;
+@borderSideMenuActive: 5px solid @green;
+
 // === === Functions === === //
 
 // === === Mixings === === //
@@ -42,6 +47,7 @@ Last modified:
 }
 
 .sideMenu {
+  padding-top: (@padding + 70px);
   background:@purpleDark;
   max-width: @width;
   &__link {
@@ -51,9 +57,11 @@ Last modified:
     &:hover {
       background: @purpleLight;
       color:@white;
+      border-right: @borderSideMenuHover;
     
       &:active {
         color:@darkGrey;
+        border-right: @borderSideMenuActive;
       }
     }
   } 
