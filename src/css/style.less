@@ -61,6 +61,7 @@ Last modified:
       background: @purpleLight;
       color:@white;
       border-right: @borderSideMenuHover;
+      transition: all 0.3s ease-in-out;
     
       &:active {
         color:@darkGrey;
@@ -75,6 +76,8 @@ Last modified:
     margin-right: @margin;
     width:(@width - 170px);
     .sideMenu__link--fontSize;
+    position: relative;
+    top:3px;
   }
 } 
 .sideMenu__link--style {

@@ -30,6 +30,7 @@ Last modified:
   background: #4B0082;
   color: #FFFFFF;
   border-right: 5px solid #92CF48;
+  transition: all 0.3s ease-in-out;
 }
 .sideMenu__link:hover:active {
   color: #7e7e7e;
@@ -42,6 +43,8 @@ Last modified:
   margin-right: 0.2rem;
   width: 30px;
   font-size: 1.4rem;
+  position: relative;
+  top: 3px;
 }
 .sideMenu__link--style {
   color: #FFFFFF;
