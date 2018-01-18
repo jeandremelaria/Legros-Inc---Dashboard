@@ -20,14 +20,18 @@ Last modified:
 // === === Variables === === //
 
 // Colors
-@purpleLight:#764b8E;
-@purpleDark:#260339;
+@purpleLight:#4B0082;
+@purpleDark:#2E0854;
 @neonGreen:#92CF48;
 @lightGrey:#d3d3d3;
 @darkGrey:#7e7e7e;
+@white:#FFFFFF;
 
 // Font
 @fontFamily:'Roboto', sans-serif;
+
+// Height and width
+@width: 200px;
 
 // === === Functions === === //
 
@@ -35,6 +39,30 @@ Last modified:
 .body {
   font-family: @fontFamily;
   background-color: @lightGrey;
+}
+
+.sideMenu {
+  background:@purpleDark;
+  max-width: @width;
+  &__link {
+    display: block;
+    .link--style;
+
+    &:hover {
+      background: @purpleLight;
+    
+    &:active {
+      background:@purpleDark;
+    }
+    }
+  }
+  
+} 
+
+.link--style {
+  color:@white;
+  text-decoration:none;
+  padding: 15px 30px;
 }
 
 // === === General === === //

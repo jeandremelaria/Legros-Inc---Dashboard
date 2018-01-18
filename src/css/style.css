@@ -13,6 +13,27 @@ Last modified:
   font-family: 'Roboto', sans-serif;
   background-color: #d3d3d3;
 }
+.sideMenu {
+  background: #2E0854;
+  max-width: 200px;
+}
+.sideMenu__link {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 15px 30px;
+}
+.sideMenu__link:hover {
+  background: #4B0082;
+}
+.sideMenu__link:hover:active {
+  background: #2E0854;
+}
+.link--style {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 15px 30px;
+}
 * {
   box-sizing: border-box;
 }
