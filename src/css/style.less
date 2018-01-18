@@ -30,9 +30,9 @@ Last modified:
 // Font
 @fontFamily:'Roboto', sans-serif;
 
-// Height and width
-@width: 200px;
 
+@width: 200px;
+@padding: 30px;
 // === === Functions === === //
 
 // === === Mixings === === //
@@ -50,19 +50,19 @@ Last modified:
 
     &:hover {
       background: @purpleLight;
+      color:@white;
     
-    &:active {
-      background:@purpleDark;
+      &:active {
+        color:@darkGrey;
+      }
     }
-    }
-  }
-  
+  } 
 } 
 
 .link--style {
   color:@white;
   text-decoration:none;
-  padding: 15px 30px;
+  padding: (@padding - 15px) @padding;
 }
 
 // === === General === === //

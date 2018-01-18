@@ -25,9 +25,10 @@ Last modified:
 }
 .sideMenu__link:hover {
   background: #4B0082;
+  color: #FFFFFF;
 }
 .sideMenu__link:hover:active {
-  background: #2E0854;
+  color: #7e7e7e;
 }
 .link--style {
   color: #FFFFFF;
