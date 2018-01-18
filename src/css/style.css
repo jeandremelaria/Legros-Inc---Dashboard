@@ -32,6 +32,7 @@ Last modified:
 .sideMenu__link:hover:active {
   color: #7e7e7e;
   border-right: 5px solid #168C00;
+  padding: 15px 30px 15px 25px;
 }
 .link--style {
   color: #FFFFFF;
