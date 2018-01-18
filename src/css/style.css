@@ -9,3 +9,10 @@ Project type: Dashboard.
 File created date: 18.01.2018
 Last modified:
 */
+.body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #d3d3d3;
+}
+* {
+  box-sizing: border-box;
+}
