@@ -37,10 +37,13 @@ Last modified:
   padding: 15px 30px 15px 25px;
 }
 .sideMenu .fa {
+  display: inline-block;
   color: #92CF48;
-  font-size: 1.5rem;
+  margin-right: 0.2rem;
+  width: 30px;
+  font-size: 1.4rem;
 }
-.link--style {
+.sideMenu__link--style {
   color: #FFFFFF;
   text-decoration: none;
   padding: 15px 30px;
@@ -48,7 +51,7 @@ Last modified:
   font-size: 1rem;
 }
 .sideMenu__link--fontSize {
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 * {
   box-sizing: border-box;
