@@ -23,6 +23,8 @@ Last modified:
   color: #FFFFFF;
   text-decoration: none;
   padding: 15px 30px;
+  font-weight: 300px;
+  font-size: 1rem;
 }
 .sideMenu__link:hover {
   background: #4B0082;
@@ -34,10 +36,19 @@ Last modified:
   border-right: 5px solid #168C00;
   padding: 15px 30px 15px 25px;
 }
+.sideMenu .fa {
+  color: #92CF48;
+  font-size: 1.5rem;
+}
 .link--style {
   color: #FFFFFF;
   text-decoration: none;
   padding: 15px 30px;
+  font-weight: 300px;
+  font-size: 1rem;
+}
+.sideMenu__link--fontSize {
+  font-size: 1rem;
 }
 * {
   box-sizing: border-box;

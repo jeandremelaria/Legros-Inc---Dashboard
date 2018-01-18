@@ -31,9 +31,12 @@ Last modified:
 
 // Font
 @fontFamily:'Roboto', sans-serif;
+@fontWeight:300px;
+@fontSize:1.4rem;
 
 //General
 @width: 200px;
+@margin: 0.8rem;
 @padding: 30px;
 @borderSideMenuHover: 5px solid @greenNeon;
 @borderSideMenuActive: 5px solid @green;
@@ -66,18 +69,31 @@ Last modified:
       }
     }
   } 
+  .fa{
+    // display: inline-block;
+    // color: @greenNeon;
+    // margin-right: 5rem;
+    // width:(@width - 170px);
+    // .__link--fontSize;
+  }
 } 
 
-.link--style {
+.__link--style {
   color:@white;
   text-decoration:none;
   padding: (@padding - 15px) @padding;
+  font-weight: @fontWeight;
+  font-size: 1rem;
+}
+.__link--fontSize {
+  font-size: @fontSize;
 }
 
 // === === General === === //
 * {
   box-sizing: border-box;
 }
+
 
 // === === Media queries === === //
 // Small devices (landscape phones, 576px and up)
