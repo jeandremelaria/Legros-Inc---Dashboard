@@ -16,96 +16,109 @@ Last modified:
 // - Mixings
 // - General 
 // - Media queries
-
 // === === Variables === === //
-
 // Colors
-@purpleLight:#4B0082;
-@purpleDark:#2E0854;
-@green:#168C00;
-@greenNeon:#92CF48;
-@lightGrey:#d3d3d3;
-@darkGrey:#7e7e7e;
-@white:#FFFFFF;
-
-
+@purpleLight: #4B0082;
+@purpleDark: #2E0854;
+@green: #168C00;
+@greenNeon: #92CF48;
+@lightGrey: #d3d3d3;
+@darkGrey: #7e7e7e;
+@white: #FFFFFF;
 // Font
-@fontFamily:'Roboto', sans-serif;
-@fontWeight:300px;
-@fontSize:1.4rem;
-
+@fontFamily: 'Roboto',
+sans-serif;
+@fontWeight: 300px;
+@fontSize: 1.4rem;
 //General
 @width: 200px;
 @margin: 0.2rem;
 @padding: 30px;
 @borderSideMenuHover: 5px solid @greenNeon;
 @borderSideMenuActive: 5px solid @green;
-
 // === === Functions === === //
-
 // === === Mixings === === //
 .body {
-  font-family: @fontFamily;
-  background-color: @lightGrey;
+    font-family: @fontFamily;
+    background-color: @lightGrey;
 }
 
 .sideMenu {
-  padding-top: (@padding + 70px);
-  background:@purpleDark;
-  max-width: @width;
-  &__link {
-    display: block;
-    .sideMenu__link--style;
+    padding-top: (@padding + 70px);
+    background: @purpleDark;
+    width: @width;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    &__link {
+        display: block;
+        .sideMenu__link--style;
+        &:hover {
+            background: @purpleLight;
+            color: @white;
+            border-right: @borderSideMenuHover;
+            transition: all 0.3s ease-in-out;
+            padding: (@padding - 15px) @padding (@padding - 15px) (@padding - 5px);
 
-    &:hover {
-      background: @purpleLight;
-      color:@white;
-      border-right: @borderSideMenuHover;
-      transition: all 0.3s ease-in-out;
-    
-      &:active {
-        color:@darkGrey;
-        border-right: @borderSideMenuActive;
-        padding: (@padding - 15px) @padding (@padding - 15px) (@padding - 5px);
-      }
+            .fa{color: @greenNeon;}
+
+            &:active{
+                color: @darkGrey;
+                border-right: @borderSideMenuActive;
+                padding: (@padding - 15px) @padding (@padding - 15px) (@padding - 5px);
+
+                .fa{color: @greenNeon;}
+            }
+        }
+        
     }
-  } 
-  .fa{
-    display: inline-block;
-    color: @greenNeon;
-    margin-right: @margin;
-    width:(@width - 170px);
-    .sideMenu__link--fontSize;
-    position: relative;
-    top:3px;
-  }
-} 
-.sideMenu__link--style {
-  color:@white;
-  text-decoration:none;
-  padding: (@padding - 15px) @padding;
-  font-weight: @fontWeight;
-  font-size: 1rem;
+    .fa {
+        display: inline-block;
+        color: @darkGrey;
+        margin-right: @margin;
+        width: (@width - 170px);
+        .sideMenu__link--fontSize;
+        position: relative;
+        top: 3px;
+    }
 }
+
+.sideMenu__link--active{
+  background: @purpleLight;
+  color: @white;
+  border-right: @borderSideMenuActive;
+  padding: (@padding - 15px) @padding (@padding - 15px) (@padding - 5px);
+
+  .fa{
+    color: @greenNeon;
+  }
+}
+.sideMenu__link--style {
+    color: @white;
+    text-decoration: none;
+    padding: (@padding - 15px) @padding;
+    font-weight: @fontWeight;
+    font-size: 1rem;
+}
+
 .sideMenu__link--fontSize {
-  font-size: @fontSize;
+    font-size: @fontSize;
 }
 
 // === === General === === //
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-
 
 // === === Media queries === === //
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {  }
+@media (min-width: 576px) {}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {  }
+@media (min-width: 768px) {}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {}

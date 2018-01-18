@@ -16,7 +16,10 @@ Last modified:
 .sideMenu {
   padding-top: 100px;
   background: #2E0854;
-  max-width: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
 .sideMenu__link {
   display: block;
@@ -31,20 +34,36 @@ Last modified:
   color: #FFFFFF;
   border-right: 5px solid #92CF48;
   transition: all 0.3s ease-in-out;
+  padding: 15px 30px 15px 25px;
+}
+.sideMenu__link:hover .fa {
+  color: #92CF48;
 }
 .sideMenu__link:hover:active {
   color: #7e7e7e;
   border-right: 5px solid #168C00;
   padding: 15px 30px 15px 25px;
 }
+.sideMenu__link:hover:active .fa {
+  color: #92CF48;
+}
 .sideMenu .fa {
   display: inline-block;
-  color: #92CF48;
+  color: #7e7e7e;
   margin-right: 0.2rem;
   width: 30px;
   font-size: 1.4rem;
   position: relative;
   top: 3px;
+}
+.sideMenu__link--active {
+  background: #4B0082;
+  color: #FFFFFF;
+  border-right: 5px solid #168C00;
+  padding: 15px 30px 15px 25px;
+}
+.sideMenu__link--active .fa {
+  color: #92CF48;
 }
 .sideMenu__link--style {
   color: #FFFFFF;
