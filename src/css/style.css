@@ -9,13 +9,3 @@ Project type: Dashboard.
 File created date: 18.01.2018
 Last modified:
 */
-@header BackgroundColor:
-// === === Functions === === //
-
-// === === Mixings === === //
-.headerMain {
-  position: relative;
-  max-height: 100px;
-  z-index: 1030;
-  background-color: red;
-}
