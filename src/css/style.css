@@ -144,6 +144,10 @@ Last modified:
 .fa--darkGrey {
   color: #7e7e7e;
 }
+.contentArea {
+  margin-left: 14.3rem;
+  padding: 15px;
+}
 * {
   box-sizing: border-box;
 }
