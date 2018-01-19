@@ -170,8 +170,12 @@ Last modified:
   width: 33.33%;
   padding: 0 15px;
 }
+.contentArea .contentArea__cards--userImg {
+  padding: 20px 60px;
+}
 .contentArea .contentArea__cards--userImg .userFieldArea__userImg--img {
   border-radius: 50%;
+  margin: 0 auto;
 }
 * {
   box-sizing: border-box;
