@@ -26,7 +26,7 @@ Last modified:
   color: #FFFFFF;
   text-decoration: none;
   padding: 15px 30px;
-  font-weight: 21.4rem;
+  font-weight: 400;
   font-size: 1rem;
 }
 .sideMenu__link:hover {
@@ -69,7 +69,7 @@ Last modified:
   color: #FFFFFF;
   text-decoration: none;
   padding: 15px 30px;
-  font-weight: 21.4rem;
+  font-weight: 400;
   font-size: 1rem;
 }
 .sideMenu__link--fontSize {
@@ -90,7 +90,7 @@ Last modified:
   font-size: 1.3rem;
   color: #92CF48;
   padding: 5px;
-  font-weight: 7.1rem;
+  font-weight: 385.7rem;
   width: 30rem;
   margin-left: 1rem;
   transition: all 0.5s ease-in-out;
@@ -147,6 +147,17 @@ Last modified:
 .contentArea {
   margin-left: 14.3rem;
   padding: 15px;
+}
+.contentArea .contentArea__heading--h1 {
+  color: #2E0854;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+}
+.contentArea .contentArea__heading--p {
+  color: #7e7e7e;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
 }
 * {
   box-sizing: border-box;

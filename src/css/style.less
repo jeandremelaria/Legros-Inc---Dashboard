@@ -28,7 +28,7 @@ Last modified:
 // Font
 @fontFamily: 'Roboto',
 sans-serif;
-@fontWeight: 21.4rem;
+@fontWeight: 400;
 @fontSize: 1.4rem;
 //General
 @width: 14.3rem;
@@ -128,7 +128,7 @@ sans-serif;
             }
         }
 
-        textarea:focus, input:focus{
+        textarea:focus, input:focus {
           outline: none;
         }
     }
@@ -176,10 +176,21 @@ sans-serif;
 .fa--darkGrey {color: @darkGrey;}
 
 // Content Area
-.contentArea{
+.contentArea {
     margin-left: @width;
     padding:(@padding - 15px);
-    //@width: 14.3rem
+   
+    .contentArea__heading--h1 {
+        color: @purpleDark;
+        font-size:@fontSize;
+        font-weight: @fontWeight;
+        margin-bottom: @margin;
+    }
+    .contentArea__heading--p {
+        color: @darkGrey;
+        font-size: (@fontSize - 0.6rem);
+        margin-bottom: @margin;
+    }
 }
 // === === General === === //
 * {
