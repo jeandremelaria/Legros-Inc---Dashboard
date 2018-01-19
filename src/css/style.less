@@ -59,9 +59,9 @@ sans-serif;
             transition: all 0.3s ease-in-out;
             padding: (@padding - 15px) @padding (@padding - 15px) (@padding - 5px);
 
-            .fa{color: @greenNeon;}
+            .fa {color: @greenNeon;}
 
-            &:active{
+            &:active {
                 color: @darkGrey;
                 border-right: @borderSideMenuActive;
                 padding: (@padding - 15px) @padding (@padding - 15px) (@padding - 5px);
@@ -81,13 +81,13 @@ sans-serif;
         top: 3px;
     }
 }
-.sideMenu__link--active{
+.sideMenu__link--active {
   background: @purpleLight;
   color: @white;
   border-right: @borderSideMenuActive;
   padding: (@padding - 15px) @padding (@padding - 15px) (@padding - 5px);
 
-  .fa{
+  .fa {
     color: @greenNeon;
   }
 }
@@ -102,21 +102,42 @@ sans-serif;
     font-size: @fontSize;
 }
 
-.header{
+.header {
     margin-left:(@margin + 13rem);
     padding:@padding;
     background-color:@white;
 
-    .searchArea{
+    .searchArea {
+        display: inline-block;
         .fa--darkGrey;
+        .searchArea__input--style {
+            background: transparent;
+            border: none;
+            font-size: (@fontSize - 0.1rem);
+            color: @greenNeon;
+            padding: (@padding - 25px);
+            font-weight: (@fontWeight - 14.3rem);
+        }
     }
-    .userFieldArea{
-        
-        .userFieldArea__link--darkGrey{
+    .userFieldArea {
+        float: right;
+        .badge{
+            display: inline-block;
+            font-size:(@fontSize - 0.7rem);
+            text-align: center;
+            position:relative;
+            top:-9px;
+            left:-13px;
+        }
+        .userFieldArea__link {
+            display: inline-block;
+            padding-right:(@padding - 25px);
+            text-decoration: none;
+        }
+        .userFieldArea__link--color {
             .fa--darkGrey;
         }
     }
-
 
 }
 
