@@ -107,14 +107,17 @@ Last modified:
   display: inline-block;
   padding-right: 5px;
   padding-top: 10px;
+  vertical-align: top;
   text-decoration: none;
   position: relative;
+  margin-right: 0.36rem;
 }
 .header .userFieldArea .userFieldArea__link--color {
   color: #7e7e7e;
 }
 .header .userFieldArea .userFieldArea__userImg {
   display: inline-block;
+  margin-left: -1.07rem;
 }
 .header .userFieldArea .userFieldArea__userImg--img {
   display: inline-block;
