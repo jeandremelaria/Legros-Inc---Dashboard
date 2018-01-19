@@ -28,10 +28,10 @@ Last modified:
 // Font
 @fontFamily: 'Roboto',
 sans-serif;
-@fontWeight: 300px;
+@fontWeight: 21.4rem;
 @fontSize: 1.4rem;
 //General
-@width: 200px;
+@width: 14.3rem;
 @margin: 0.2rem;
 @padding: 30px;
 @borderSideMenuHover: 5px solid @greenNeon;
@@ -42,7 +42,6 @@ sans-serif;
     font-family: @fontFamily;
     background-color: @lightGrey;
 }
-
 .sideMenu {
     padding-top: (@padding + 70px);
     background: @purpleDark;
@@ -82,7 +81,6 @@ sans-serif;
         top: 3px;
     }
 }
-
 .sideMenu__link--active{
   background: @purpleLight;
   color: @white;
@@ -100,11 +98,29 @@ sans-serif;
     font-weight: @fontWeight;
     font-size: 1rem;
 }
-
 .sideMenu__link--fontSize {
     font-size: @fontSize;
 }
 
+.header{
+    margin-left:(@margin + 13rem);
+    padding:@padding;
+    background-color:@white;
+
+    .searchArea{
+        .fa--darkGrey;
+    }
+    .userFieldArea{
+        
+        .userFieldArea__link--darkGrey{
+            .fa--darkGrey;
+        }
+    }
+
+
+}
+
+.fa--darkGrey {color: @darkGrey;}
 // === === General === === //
 * {
     box-sizing: border-box;

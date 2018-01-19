@@ -16,7 +16,7 @@ Last modified:
 .sideMenu {
   padding-top: 100px;
   background: #2E0854;
-  width: 200px;
+  width: 14.3rem;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -26,7 +26,7 @@ Last modified:
   color: #FFFFFF;
   text-decoration: none;
   padding: 15px 30px;
-  font-weight: 300px;
+  font-weight: 21.4rem;
   font-size: 1rem;
 }
 .sideMenu__link:hover {
@@ -51,7 +51,7 @@ Last modified:
   display: inline-block;
   color: #7e7e7e;
   margin-right: 0.2rem;
-  width: 30px;
+  width: -155.7rem;
   font-size: 1.4rem;
   position: relative;
   top: 3px;
@@ -69,11 +69,25 @@ Last modified:
   color: #FFFFFF;
   text-decoration: none;
   padding: 15px 30px;
-  font-weight: 300px;
+  font-weight: 21.4rem;
   font-size: 1rem;
 }
 .sideMenu__link--fontSize {
   font-size: 1.4rem;
+}
+.header {
+  margin-left: 13.2rem;
+  padding: 30px;
+  background-color: #FFFFFF;
+}
+.header .searchArea {
+  color: #7e7e7e;
+}
+.header .userFieldArea .userFieldArea__link--darkGrey {
+  color: #7e7e7e;
+}
+.fa--darkGrey {
+  color: #7e7e7e;
 }
 * {
   box-sizing: border-box;
