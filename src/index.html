@@ -41,6 +41,7 @@ Last modified:
     <script src="../node_modules/popper.js/dist/popper.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <main>
+        <!-- Side Menu -->
         <aside>
             <nav class="sideMenu">
                 <a class="sideMenu__link sideMenu__link--active" href="#"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a>
@@ -51,6 +52,8 @@ Last modified:
                 <a class="sideMenu__link" href="#"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;Item</a>
             </nav>
         </aside>
+        <!-- /Side Menu -->
+        <!-- Header -->
         <header class="header">
             <div class="searchArea">
                 <i class="fa fa-search" aria-hidden="true"></i>
@@ -72,6 +75,62 @@ Last modified:
                 </a>
             </div>
         </header>
+        <!-- /Header -->
+        <!-- Content Area -->
+        <section class="contentArea">
+            <div class="contentArea__heading">
+                <h1>Dashboard</h1>
+                <p>Welcome to Legros Inc</p>
+            </div>
+
+            <div class="contentArea__cards">
+                <div class="contentArea__cards--card">
+                    <div class="contentArea__cards--userImg">
+                    </div>
+                    <span></span> class="contentArea__cards--userName">John Doe
+                    </span>
+                    <span class="contentArea__cards--userTitle">Full-Stack Developer
+                    </span>
+                    <hr>
+                    <div class="col-md-4">
+                        <span class="schools">Grover Cleveland HS</span>
+                        <span class="schools">New York University</span>
+                    </div>
+                </div>
+
+                <div class="contentArea__cards--card">
+                    <h6>Interview Schedule</h6>
+                    <span class="date">Jul 21, 2018</span>
+                    <div class="col-md-2">
+                        <span class="job-type">IT</span>
+                    </div>
+                    <div class="col-md-10">
+                        <span class="schools">Best Buy HQ</span>
+                        <span class="schools">Senior Developer</span>
+                        <span class="time">10:30 am</span>
+                    </div>
+
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Jobs</th>
+                        <th>End of application</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Online Shopping</td>
+                        <td>Java Developer</td>
+                        <td>New York, NY</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- /Content Area -->
     </main>
 </body>
 
