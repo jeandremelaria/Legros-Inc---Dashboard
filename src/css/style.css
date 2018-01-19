@@ -159,6 +159,17 @@ Last modified:
   font-size: 0.8rem;
   margin-bottom: 0.2rem;
 }
+.contentArea .contentArea__cards--card {
+  background: #FFFFFF;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contentArea .contentArea__school {
+  width: 33.33%;
+  padding: 0 15px;
+}
 * {
   box-sizing: border-box;
 }
