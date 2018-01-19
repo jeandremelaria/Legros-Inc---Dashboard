@@ -120,6 +120,7 @@ sans-serif;
         }
     }
     .userFieldArea {
+        
         float: right;
         .badge{
             display: inline-block;
@@ -132,15 +133,27 @@ sans-serif;
         .userFieldArea__link {
             display: inline-block;
             padding-right:(@padding - 25px);
+            padding-top:(@padding - 20px);
             text-decoration: none;
+            position: relative;
         }
         .userFieldArea__link--color {
             .fa--darkGrey;
         }
+        .userFieldArea__userImg {
+            display: inline-block;
+        }
+        .userFieldArea__userImg--img {
+           display: inline-block;
+           position: relative;
+           top:-1.8rem;
+           margin-top:0.71rem;
+           vertical-align: top;
+           border-radius: 50%;
+           width:(@width - 10.8);
+        }
     }
-
 }
-
 .fa--darkGrey {color: @darkGrey;}
 // === === General === === //
 * {
