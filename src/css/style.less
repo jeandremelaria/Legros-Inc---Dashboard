@@ -194,22 +194,30 @@ sans-serif;
     .contentArea__cards--card {
         background: @white;
         border-radius: 5px;
-        margin-left:15px;
-        margin-top:20px;
-        margin-bottom:20px;
-    }
-    .contentArea__school {
-        width:33.33%;
-        padding: 0 (@padding - 15px);
-     }
+        margin-left:1.07rem;
+        margin-top:0.71rem;
+        margin-bottom:1.4rem;
 
-     .contentArea__cards--userImg {
-         padding: (@padding - 10px)(@padding + 30px);
-         .userFieldArea__userImg--img {
-             border-radius: 50%;
-             margin:0 auto;
+        .contentArea__school {
+            width:33.33%;
+            padding: 0 (@padding - 15px);
          }
-     }
+    
+         .contentArea__cards--userImg {
+             padding: (@padding - 10px)(@padding + 30px);
+             .userFieldArea__userImg--img {
+                 border-radius: 50%;
+                 margin:0 auto;
+             }
+         }
+         .contentArea__cards--userName {
+            font-size:(@fontSize - 0.4rem);
+            color:@purpleDark;
+            display: block;
+            text-align: center;
+         }
+    }
+   
 }
 // === === General === === //
 * {
