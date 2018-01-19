@@ -91,6 +91,16 @@ Last modified:
   color: #92CF48;
   padding: 5px;
   font-weight: 7.1rem;
+  width: 30rem;
+  margin-left: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+.header .searchArea .searchArea__input--style:hover {
+  background: #d3d3d3;
+}
+.header .searchArea textarea:focus,
+.header .searchArea input:focus {
+  outline: none;
 }
 .header .userFieldArea {
   float: right;

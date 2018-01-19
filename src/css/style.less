@@ -108,6 +108,7 @@ sans-serif;
     background-color:@white;
 
     .searchArea {
+        
         display: inline-block;
         .fa--darkGrey;
         .searchArea__input--style {
@@ -117,6 +118,17 @@ sans-serif;
             color: @greenNeon;
             padding: (@padding - 25px);
             font-weight: (@fontWeight - 14.3rem);
+            width:(@width + 15.7rem);
+            margin-left:1rem;
+            transition: all 0.5s ease-in-out;
+            
+            &:hover {
+                background: @lightGrey;
+            }
+        }
+
+        textarea:focus, input:focus{
+          outline: none;
         }
     }
     .userFieldArea {
@@ -137,9 +149,7 @@ sans-serif;
             vertical-align: top;
             text-decoration: none;
             position: relative;
-            margin-right:0.36rem;
-            
-            
+            margin-right:0.36rem;         
         }
         .userFieldArea__link--color {
             .fa--darkGrey;
