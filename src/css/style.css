@@ -230,3 +230,11 @@ Last modified:
     width: 24rem!important;
   }
 }
+@media (min-width: 1200px) {
+  .searchArea {
+    margin-left: -11.3rem;
+  }
+  .searchArea .searchArea__input--style {
+    width: 34.3rem !important;
+  }
+}
