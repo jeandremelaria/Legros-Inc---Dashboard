@@ -207,6 +207,9 @@ Last modified:
   .searchArea .searchArea__input--style {
     width: 1rem!important;
   }
+  .header {
+    height: 4.5rem;
+  }
   .fa {
     font-size: 1.3rem !important;
   }
