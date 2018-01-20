@@ -83,7 +83,6 @@ Last modified:
   font-size: 1.4rem;
 }
 .header {
-  margin-left: 14.2rem;
   padding: 15px;
   background-color: #FFFFFF;
 }
@@ -201,5 +200,14 @@ Last modified:
 @media (min-width: 576px) {
   .sideMenu {
     padding-right: 0;
+  }
+  .searchArea {
+    margin-left: 1.7rem;
+  }
+  .searchArea .searchArea__input--style {
+    width: 1rem!important;
+  }
+  .fa {
+    font-size: 1.3rem !important;
   }
 }

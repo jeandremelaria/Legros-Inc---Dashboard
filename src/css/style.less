@@ -112,7 +112,7 @@ sans-serif;
 }
 //Header
 .header {
-    margin-left:(@margin + 14rem);
+    //margin-left:(@margin + 14rem);
     padding:(@padding - 15px);
     background-color:@white;
 
@@ -240,13 +240,19 @@ sans-serif;
 // === === Media queries === === //
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {   
-
     .sideMenu {
        padding-right: 0;
+    }
+    .searchArea {
+        margin-left:(@margin + 1.5rem);
 
-       .sideMenu__link{
-           
-       }
+        .searchArea__input--style {
+            width:1rem!important;
+        }   
+    }
+    .fa {
+        //font-size: (@fontSize - 0.5rem);
+        font-size:(@fontSize - 0.1rem)!important;
     }
 }
 
