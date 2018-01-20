@@ -44,12 +44,12 @@ sans-serif;
 }
 //Navigation
 .sideMenu {
-    padding-top: (@padding + 70px);
-    background: @purpleDark;
-    width: @width;
-    position: absolute;
-    top: 0;
-    bottom: 0;
+     padding-top: (@padding + 70px);
+     background: @purpleDark;
+     width: @width;
+     position: absolute;
+     top: 0;
+     bottom: 0;
     &__link {
         display: block;
         .sideMenu__link--style;
@@ -216,6 +216,11 @@ sans-serif;
             display: block;
             text-align: center;
          }
+         .contentArea__cards--userTitle {
+            font-size:(@fontSize - 0.5rem);
+            display: block;
+            text-align: center;
+         }
     }
    
 }
@@ -226,7 +231,12 @@ sans-serif;
 
 // === === Media queries === === //
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {}
+@media (min-width: 576px) {   
+
+    .sideMenu {
+       padding-right: 0rem;
+    }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {}

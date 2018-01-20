@@ -183,6 +183,16 @@ Last modified:
   display: block;
   text-align: center;
 }
+.contentArea .contentArea__cards--card .contentArea__cards--userTitle {
+  font-size: 0.9rem;
+  display: block;
+  text-align: center;
+}
 * {
   box-sizing: border-box;
+}
+@media (min-width: 576px) {
+  .sideMenu {
+    padding-right: 0rem;
+  }
 }
