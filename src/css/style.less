@@ -59,6 +59,7 @@ sans-serif;
             border-right: @borderSideMenuHover;
             transition: all 0.3s ease-in-out;
             padding: (@padding - 15px) @padding (@padding - 15px) (@padding - 5px);
+            text-decoration: none;
 
             .fa {color: @greenNeon;}
 
@@ -92,12 +93,19 @@ sans-serif;
     color: @greenNeon;
   }
 }
+.sideMenu__link--text {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 0.25rem;
+    text-decoration: none;
+}
 .sideMenu__link--style {
     color: @white;
     text-decoration: none;
     padding: (@padding - 15px) @padding;
     font-weight: @fontWeight;
-    font-size: 1rem;
+    font-size: (@fontSize - 0.4rem);
+   
 }
 .sideMenu__link--fontSize {
     font-size: @fontSize;
@@ -234,7 +242,11 @@ sans-serif;
 @media (min-width: 576px) {   
 
     .sideMenu {
-       padding-right: 0rem;
+       padding-right: 0;
+
+       .sideMenu__link{
+           
+       }
     }
 }
 

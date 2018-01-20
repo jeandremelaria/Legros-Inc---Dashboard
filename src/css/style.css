@@ -35,6 +35,7 @@ Last modified:
   border-right: 5px solid #92CF48;
   transition: all 0.3s ease-in-out;
   padding: 15px 30px 15px 25px;
+  text-decoration: none;
 }
 .sideMenu__link:hover .fa {
   color: #92CF48;
@@ -64,6 +65,12 @@ Last modified:
 }
 .sideMenu__link--active .fa {
   color: #92CF48;
+}
+.sideMenu__link--text {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 0.25rem;
+  text-decoration: none;
 }
 .sideMenu__link--style {
   color: #FFFFFF;
@@ -193,6 +200,6 @@ Last modified:
 }
 @media (min-width: 576px) {
   .sideMenu {
-    padding-right: 0rem;
+    padding-right: 0;
   }
 }
