@@ -272,7 +272,15 @@ sans-serif;
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .searchArea {
+        margin-left:(@margin - 7rem);
+
+        .searchArea__input--style {
+            width:24rem!important;
+        }   
+    }
+}
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {}

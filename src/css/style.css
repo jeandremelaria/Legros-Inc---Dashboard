@@ -222,3 +222,11 @@ Last modified:
     width: 14rem!important;
   }
 }
+@media (min-width: 992px) {
+  .searchArea {
+    margin-left: -6.8rem;
+  }
+  .searchArea .searchArea__input--style {
+    width: 24rem!important;
+  }
+}
