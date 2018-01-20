@@ -213,6 +213,9 @@ Last modified:
   .fa {
     font-size: 1.3rem !important;
   }
+  .contentArea__cards--card {
+    margin-left: -0.1rem !important;
+  }
 }
 @media (min-width: 768px) {
   .searchArea {
