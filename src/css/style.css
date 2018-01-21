@@ -214,7 +214,8 @@ Last modified:
     font-size: 1.3rem !important;
   }
   .contentArea__cards--card {
-    margin-left: -0.2rem !important;
+    margin-left: 1rem!important;
+    width: 18.7rem !important;
   }
   .contentArea__cards--userImg .userFieldArea__userImg--img {
     width: 4.3rem !important;
